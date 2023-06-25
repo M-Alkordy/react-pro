@@ -39,10 +39,10 @@
                     </div>
                     <div className={disable ? "toggle-links" : "toggle-links tr"}>
                             <div className="menu-links">
-                                <Link onClick={ac} to="/Syrian-football-team">الرئيسية</Link>
-                                <Link onClick={ac} to="/Syrian-football-team/about"> حول المنتخب </Link>
-                                <Link onClick={ac} to="/Syrian-football-team/squad">الفريق </Link>
-                                <Link onClick={ac} to="/Syrian-football-team/fans-zone">الجمهور</Link>
+                                <Link onClick={ac} to="/react-pro">الرئيسية</Link>
+                                <Link onClick={ac} to="/react-pro/about"> حول المنتخب </Link>
+                                <Link onClick={ac} to="/react-pro/squad">الفريق </Link>
+                                <Link onClick={ac} to="/react-pro/fans-zone">الجمهور</Link>
                             </div>
                         </div>
                 </div>
@@ -50,10 +50,10 @@
             <div className="container">
                 <div className="links">
                     <ul>
-                        <Link className="main-link" to="/Syrian-football-team">الرئيسية</Link>
-                        <Link className="main-link" to="/Syrian-football-team/about"> حول المنتخب </Link>
-                        <Link className="main-link" to="/Syrian-football-team/squad">الفريق </Link>
-                        <Link className="main-link" to="/Syrian-football-team/fans-zone">الجمهور</Link>
+                        <Link className="main-link" to="/react-pro">الرئيسية</Link>
+                        <Link className="main-link" to="/react-pro/about"> حول المنتخب </Link>
+                        <Link className="main-link" to="/react-pro/squad">الفريق </Link>
+                        <Link className="main-link" to="/react-pro/fans-zone">الجمهور</Link>
                     </ul>
                     <div className="toggle-menu" onClick={notac}>
                         <span></span>
@@ -73,7 +73,7 @@
                             <li id="arabic" onClick={theLang}>عربي</li>
                         </ul>
                     </div>
-                    <Link className="sign" to="/Syrian-football-team/sign-up">
+                    <Link className="sign" to="/react-pro/sign-up">
                         <FontAwesomeIcon icon={faUser} className=".sign-icon"/>
                     </Link>
                     <div className="search">

@@ -17,7 +17,7 @@ function LogIN(){
         })
         .then((res) => {
           if (res.status === 200) {
-            navigate("/Syrian-football-team/log-in");
+            navigate("/react-pro/log-in");
           }
         });
       }
@@ -28,7 +28,7 @@ function LogIN(){
           <div className="left-sec-log">
             <h2>hello, fan!</h2>
             <p>Enter your personal details and start journey with us</p>
-            <Link to="/Syrian-football-team/sign-up" className="trans">Sign Up</Link>
+            <Link to="/react-pro/sign-up" className="trans">Sign Up</Link>
           </div>
           <div className="right-sec-log">
             <h2>Sign in</h2>

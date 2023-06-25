@@ -32,7 +32,7 @@ function Sign(){
           <div className="left-sec">
             <h2>Welcome Back!</h2>
             <p>To keep connected with us please login with your personal info</p>
-            <Link to="/Syrian-football-team/log-in" className="trans">Sign In</Link>
+            <Link to="/react-pro/log-in" className="trans">Sign In</Link>
           </div>
           <div className="right-sec">
             <h2>Creat Account</h2>

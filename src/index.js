@@ -20,34 +20,34 @@ import LogIN from './components/LogIn';
 
 const router = createBrowserRouter([
   {
-    path: "/Syrian-football-team",
+    path: "/react-pro",
     element: <App />,
     children : [
       {
-      path:"/Syrian-football-team",
+      path:"/react-pro",
       element:<Home />
       },
       {
-      path:"/Syrian-football-team/about",
+      path:"/react-pro/about",
       element:<About />
       },
       {
-      path:"/Syrian-football-team/squad",
+      path:"/react-pro/squad",
       element:<Squad />
       },
       {
-      path:"/Syrian-football-team/fans-zone",
+      path:"/react-pro/fans-zone",
       element:<FansZone />
       },
       {
-      path:"/Syrian-football-team/live",
+      path:"/react-pro/live",
       element:<Live />
       },
       {
-        path:"/Syrian-football-team/sign-up",
+        path:"/react-pro/sign-up",
         element:<Sign/>
       },{
-        path :"/Syrian-football-team/log-in",
+        path :"/react-pro/log-in",
         element : <LogIN/>
       }
       ]
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <RouterProvider router={router} basename={'/trippy'} />
+      <RouterProvider router={router} />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
